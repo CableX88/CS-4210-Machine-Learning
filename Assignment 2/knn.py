@@ -110,14 +110,7 @@ for m in range(10):
                 incorrect_predictions += 1
             else:
                 continue
-        X.append(testSample)
-        print(X)
-        Y.append(True_label)
-        testSample.clear
-        True_label.clear
-        for x in X:
-            testSample.append(x)
-            print(testSample)
+       
 
         
         
